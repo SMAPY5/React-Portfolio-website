@@ -1,0 +1,72 @@
+#intro{
+    height:calc(100vh-4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: auto;
+    overflow: hidden;
+
+}
+.bg{
+    position: absolute;
+   
+    right:100px;
+    top: 100px;
+    z-index: -1;
+    object-fit: cover;
+    height: 70vh;
+    border-radius: 100%;
+    /* background-color: yellow;
+    animation-name: mounika;
+    animation-duration: 5s; */
+
+}
+/* @keyframes mounika{
+    0% {background-color: blue;}
+    25% {background-color: green;}
+    50% {background-color: red;}
+    100% {background-color: yellow;}
+} */
+.text{
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.hire{
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    background: white;
+    border: none;
+    border-radius: 15px;
+    color: black;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.nam{
+    color: yellow;
+    margin-left: 10px;
+}
+.para{
+    font-size: medium;
+    font-weight: 100;
+}
+@media screen and (max-width:480px){
+    .bg{
+        right: -20vw;
+    }
+    /* .text{
+        font-size: 10vw;
+    }
+    hello{
+        font-size: 4.5vw;
+    } */
+    
+}
